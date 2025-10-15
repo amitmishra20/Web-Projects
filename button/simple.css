@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(95, 84, 84);
+}
+
+header {
+    background-color: #121212;
+    color: bisque;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.flex {
+    position:sticky;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+    padding: 10px;
+    z-index: 1000;
+    justify-content: end;
+    color: tomato;
+}
+
+main {
+    border: 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: #121212;
+    color: beige;
+    padding: 50px;
+    text-align: justify;
+}
+
+h2 {
+    display: flex;
+    text-decoration: underline;
+    font-family: Poppins;
+    animation: "animate__fadeIn";
+    color: #E5E5E5;
+    font-size: 30px;
+    animation: forwards;
+    animation-duration: 1s;
+    cursor: pointer;
+    transition: color 0,3s ease-in;
+}
+h2:hover{
+    color: beige;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.nav-link{
+     margin: 0 15px;
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: rosybrown; 
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFB6C1; /* Hover color */
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap; /* for responsiveness */
+}
+
+main {
+  flex: 1;
+  min-width: 300px;
+}
+
+aside img {
+  max-width: 350px;
+  border-radius: 50px;
+}
